@@ -1,0 +1,293 @@
+{
+  "active_version": "RF-v1.0",
+  "versions": {
+    "RF-v1.0": {
+      "version_tag": "RF-v1.0",
+      "created_at": "2026-09-19T15:28:55.994090",
+      "model_path": "C:\\surya\\IDP\\pr-mess-prediction-system\\backend\\app\\saved_models\\RF-v1.0.joblib",
+      "metrics": {
+        "mae": 51.53,
+        "rmse": 68.04,
+        "r2": 0.9451,
+        "mape": 5.5,
+        "total_waste": 5824.8,
+        "total_unmet_demand": 6542.7,
+        "waste_rate_pct": 2.35,
+        "unmet_rate_pct": 2.64,
+        "sample_count": 240
+      },
+      "hyperparameters": {
+        "n_estimators": 150,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 16,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "feature_importances": [
+        {
+          "feature": "expected_students",
+          "importance": 0.5454,
+          "percentage": 54.54
+        },
+        {
+          "feature": "rolling_mean_7",
+          "importance": 0.1181,
+          "percentage": 11.81
+        },
+        {
+          "feature": "historical_menu_popularity",
+          "importance": 0.0901,
+          "percentage": 9.01
+        },
+        {
+          "feature": "attendance_lag_7",
+          "importance": 0.0647,
+          "percentage": 6.47
+        },
+        {
+          "feature": "attendance_lag_1",
+          "importance": 0.0442,
+          "percentage": 4.42
+        },
+        {
+          "feature": "rolling_mean_14",
+          "importance": 0.0384,
+          "percentage": 3.84
+        },
+        {
+          "feature": "dish_category_code",
+          "importance": 0.0236,
+          "percentage": 2.36
+        },
+        {
+          "feature": "is_special_dish",
+          "importance": 0.0173,
+          "percentage": 1.73
+        },
+        {
+          "feature": "meal_type_code",
+          "importance": 0.0137,
+          "percentage": 1.37
+        },
+        {
+          "feature": "attendance_lag_3",
+          "importance": 0.0077,
+          "percentage": 0.77
+        },
+        {
+          "feature": "expected_class_attendance",
+          "importance": 0.0072,
+          "percentage": 0.72
+        },
+        {
+          "feature": "attendance_lag_2",
+          "importance": 0.0072,
+          "percentage": 0.72
+        },
+        {
+          "feature": "rolling_mean_30",
+          "importance": 0.007,
+          "percentage": 0.7
+        },
+        {
+          "feature": "days_to_exam",
+          "importance": 0.005,
+          "percentage": 0.5
+        },
+        {
+          "feature": "days_after_exam",
+          "importance": 0.0034,
+          "percentage": 0.34
+        },
+        {
+          "feature": "day_of_week",
+          "importance": 0.0024,
+          "percentage": 0.24
+        },
+        {
+          "feature": "month",
+          "importance": 0.0013,
+          "percentage": 0.13
+        },
+        {
+          "feature": "is_weekend",
+          "importance": 0.0012,
+          "percentage": 0.12
+        },
+        {
+          "feature": "is_exam",
+          "importance": 0.001,
+          "percentage": 0.1
+        },
+        {
+          "feature": "is_cat1",
+          "importance": 0.0004,
+          "percentage": 0.04
+        },
+        {
+          "feature": "is_fat",
+          "importance": 0.0003,
+          "percentage": 0.03
+        },
+        {
+          "feature": "is_holiday",
+          "importance": 0.0002,
+          "percentage": 0.02
+        },
+        {
+          "feature": "is_cat2",
+          "importance": 0.0002,
+          "percentage": 0.02
+        }
+      ],
+      "training_records_count": 1200,
+      "is_active": true
+    },
+    "RF-v1.1": {
+      "version_tag": "RF-v1.1",
+      "created_at": "2026-09-19T15:24:47.345891",
+      "model_path": "C:\\surya\\IDP\\pr-mess-prediction-system\\backend\\app\\saved_models\\RF-v1.1.joblib",
+      "metrics": {
+        "mae": 81.69,
+        "rmse": 118.4,
+        "r2": 0.8264,
+        "mape": 9.14,
+        "total_waste": 12330.7,
+        "total_unmet_demand": 9318.3,
+        "waste_rate_pct": 4.52,
+        "unmet_rate_pct": 3.42,
+        "sample_count": 265
+      },
+      "hyperparameters": {
+        "n_estimators": 150,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 0.8,
+        "max_depth": 16,
+        "random_state": 42,
+        "n_jobs": 1
+      },
+      "feature_importances": [
+        {
+          "feature": "expected_students",
+          "importance": 0.5329,
+          "percentage": 53.29
+        },
+        {
+          "feature": "rolling_mean_7",
+          "importance": 0.1395,
+          "percentage": 13.95
+        },
+        {
+          "feature": "historical_menu_popularity",
+          "importance": 0.0985,
+          "percentage": 9.85
+        },
+        {
+          "feature": "attendance_lag_7",
+          "importance": 0.0689,
+          "percentage": 6.89
+        },
+        {
+          "feature": "rolling_mean_14",
+          "importance": 0.0435,
+          "percentage": 4.35
+        },
+        {
+          "feature": "dish_category_code",
+          "importance": 0.0233,
+          "percentage": 2.33
+        },
+        {
+          "feature": "attendance_lag_1",
+          "importance": 0.0214,
+          "percentage": 2.14
+        },
+        {
+          "feature": "is_special_dish",
+          "importance": 0.0143,
+          "percentage": 1.43
+        },
+        {
+          "feature": "meal_type_code",
+          "importance": 0.0128,
+          "percentage": 1.28
+        },
+        {
+          "feature": "expected_class_attendance",
+          "importance": 0.0098,
+          "percentage": 0.98
+        },
+        {
+          "feature": "attendance_lag_2",
+          "importance": 0.0091,
+          "percentage": 0.91
+        },
+        {
+          "feature": "attendance_lag_3",
+          "importance": 0.0067,
+          "percentage": 0.67
+        },
+        {
+          "feature": "rolling_mean_30",
+          "importance": 0.0057,
+          "percentage": 0.57
+        },
+        {
+          "feature": "days_after_exam",
+          "importance": 0.004,
+          "percentage": 0.4
+        },
+        {
+          "feature": "days_to_exam",
+          "importance": 0.0035,
+          "percentage": 0.35
+        },
+        {
+          "feature": "day_of_week",
+          "importance": 0.002,
+          "percentage": 0.2
+        },
+        {
+          "feature": "month",
+          "importance": 0.0013,
+          "percentage": 0.13
+        },
+        {
+          "feature": "is_weekend",
+          "importance": 0.001,
+          "percentage": 0.1
+        },
+        {
+          "feature": "is_exam",
+          "importance": 0.0008,
+          "percentage": 0.08
+        },
+        {
+          "feature": "is_cat1",
+          "importance": 0.0005,
+          "percentage": 0.05
+        },
+        {
+          "feature": "is_holiday",
+          "importance": 0.0002,
+          "percentage": 0.02
+        },
+        {
+          "feature": "is_fat",
+          "importance": 0.0001,
+          "percentage": 0.01
+        },
+        {
+          "feature": "is_cat2",
+          "importance": 0.0001,
+          "percentage": 0.01
+        }
+      ],
+      "training_records_count": 1325,
+      "is_active": false
+    }
+  }
+}
